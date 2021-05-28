@@ -24,7 +24,7 @@ public class TestMain {
         for (final WebElement allLink : allLinks) {
             System.out.println(allLink.getText());
         }
-
+        driver.quit();
     }
 
 }
